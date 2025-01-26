@@ -2,7 +2,6 @@ package computer.gingershaped.afkmarker
 
 import com.mojang.authlib.GameProfile
 import net.minecraft.Util
-import net.minecraft.core.BlockPos
 import net.minecraft.network.chat.Component
 import net.neoforged.bus.api.SubscribeEvent
 import net.neoforged.fml.common.EventBusSubscriber

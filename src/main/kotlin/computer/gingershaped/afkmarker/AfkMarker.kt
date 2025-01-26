@@ -1,9 +1,7 @@
 package computer.gingershaped.afkmarker
 
-import com.mojang.authlib.GameProfile
 import net.minecraft.client.Minecraft
 import net.minecraft.core.BlockPos
-import net.minecraft.world.phys.Vec2
 import net.neoforged.fml.common.Mod
 import net.neoforged.neoforge.attachment.AttachmentType
 import net.neoforged.neoforge.network.handling.IPayloadContext
@@ -12,7 +10,7 @@ import net.neoforged.neoforge.registries.NeoForgeRegistries
 import org.apache.logging.log4j.LogManager
 import thedarkcolour.kotlinforforge.neoforge.forge.MOD_BUS
 import thedarkcolour.kotlinforforge.neoforge.forge.getValue
-import java.util.Optional
+import java.util.*
 
 @Mod(AfkMarker.ID)
 object AfkMarker {
