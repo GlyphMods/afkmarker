@@ -1,0 +1,7 @@
+{
+  "commands.afkmarker.set_afk_timeout.success": "Players will be marked as AFK after %s minute(s) of inactivity.",
+  "commands.afkmarker.mark_afk.success": "You are now marked as AFK until you move onto a different block.",
+  "afkmarker.no_longer_afk": "You are no longer marked as AFK.",
+  "resourcepack.afkmarker.vanilla.name": "Vanilla AFK Icons",
+  "resourcepack.afkmarker.vanilla.description": "Display the vanilla moon instead of a crescent moon for AFK players"
+}
