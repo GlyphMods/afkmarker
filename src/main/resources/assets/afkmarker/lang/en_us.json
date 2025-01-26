@@ -1,4 +1,5 @@
 {
+  "afkmarker.configuration.sync_paused":  "Sync pause state",
   "commands.afkmarker.set_afk_timeout.success": "Players will be marked as AFK after %s minute(s) of inactivity.",
   "commands.afkmarker.mark_afk.success": "You are now marked as AFK until you move onto a different block.",
   "afkmarker.no_longer_afk": "You are no longer marked as AFK.",

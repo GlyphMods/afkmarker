@@ -13,13 +13,13 @@ import net.neoforged.neoforge.network.PacketDistributor
 object PauseListener {
     @SubscribeEvent
     private fun onScreenOpen(event: ScreenEvent.Opening) {
-        if (event.screen is PauseScreen) {
+        if (event.screen is PauseScreen && Configuration.config.syncPaused.get()) {
             PacketDistributor.sendToServer(Packets.SetPaused(true))
         }
     }
     @SubscribeEvent
     private fun onScreenClose(event: ScreenEvent.Closing) {
-        if (event.screen is PauseScreen) {
+        if (event.screen is PauseScreen && Configuration.config.syncPaused.get()) {
             PacketDistributor.sendToServer(Packets.SetPaused(false))
         }
     }
